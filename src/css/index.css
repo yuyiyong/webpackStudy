@@ -1,0 +1,15 @@
+body{
+    background-color: red;
+    color: white;
+}
+#picture{
+    background: url('../images/8.jpg');
+    width: 690px;
+    height: 1035px;
+    transform: rotate(45deg);
+    box-shadow: 1px 1px 0 rgba(177, 125, 125, 0.25)
+}
+#bbc{
+    background-color: red;
+    color: white; 
+}
