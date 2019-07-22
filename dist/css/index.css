@@ -16,7 +16,7 @@ body {
 }
 
 #picture {
-  background: url(http://192.168.31.26:1717/image/56c2fc8ff1d2cda2b39fd590a9335ded.jpg);
+  background: url(http://192.168.1.102:1717/image/56c2fc8ff1d2cda2b39fd590a9335ded.jpg);
   width: 690px;
   height: 1035px;
   transform: rotate(45deg);
