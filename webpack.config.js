@@ -4,9 +4,18 @@ const uglify = require('uglifyjs-webpack-plugin');
 const htmlPlugin = require('html-webpack-plugin');
 const extractTextPlugin = require("extract-text-webpack-plugin");
 const purifyCssPlugin = require("purifycss-webpack");
-let website = {
-    publicPath: "http://192.168.1.102:1717/"
+console.log(encodeURIComponent(process.env.type));
+if(process.env.type==="build"){
+    var website = {
+        publicPath: "http://www.jsDui.com"
+    }
+}else {
+    var website = {
+        publicPath: "http://192.168.1.102:1717/"
+    };
+
 }
+
 module.exports = {
     devtool:'eval-source-map' ,
     entry: {
